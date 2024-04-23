@@ -22,7 +22,7 @@ def makeGraph(dict):
 
 
     plot = figure(width = 600, height = 600)
-    plot.circle(airVals, waterVals, size = 6, color = (25, 50, 225))
+    plot.circle(airVals, waterVals, size = 6, color = (167, 156, 69))
 
     #trendline
     mean_x = numpy.mean(airVals)
